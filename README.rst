@@ -27,7 +27,7 @@ Developing
     pipenv shell
 
     # compile styles
-    pysassc ./assets/static/style/style.scss > ./assets/static/style/style.scss
+    pysassc ./assets/static/style/style.scss > ./assets/static/style/style.css
 
     # run the Lektor server
     lektor server
