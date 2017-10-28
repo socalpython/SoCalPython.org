@@ -33,3 +33,9 @@ Developing
     lektor server
 
     # go to http://localhost:5000
+
+
+Infrastructure
+--------------
+
+This repository contains the site source. The site itself is deployed on Netlify from a different repository, generated from this source. The domain is registered by @nkantar through Hover, and SSL is provided by Let's Encrypt.
