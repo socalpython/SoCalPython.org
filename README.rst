@@ -11,11 +11,8 @@ Setup
 
 .. code-block:: shell
 
-    # initialize virtual environment
-    pipenv --three
-
-    # install dependencies
-    pipenv install
+    # initialize virtual environment and install dependencies
+    pipenv --three install
 
 
 Developing
@@ -23,14 +20,14 @@ Developing
 
 .. code-block:: shell
 
-    # enter virtual environment as Lektor won't work from the outside
-    pipenv shell
-
     # compile styles
     pysassc ./assets/static/style/style.scss > ./assets/static/style/style.css
 
+    # alternately, if you have libsass installed, you can watch for changes
+    sass --watch ./assets/static/style/style.scss:./assets/static/style/style.css
+
     # run the Lektor server
-    lektor server
+    pipenv run lektor server
 
     # go to http://localhost:5000
 
