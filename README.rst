@@ -36,3 +36,9 @@ Infrastructure
 --------------
 
 This repository contains the site source. The site itself is deployed on Netlify from a different repository, generated from this source. The domain is registered by @nkantar through Hover, and SSL is provided by Let's Encrypt.
+
+
+Code of Conduct
+---------------
+
+The SoCal Python community has a `Code of Conduct <https://github.com/socalpython/SoCalPython.org/blob/master/CODE_OF_CONDUCT.md>`_, which covers contributing to this codebase as well as participating in the community in any way. Doing so implies you agree to abide by its terms.
