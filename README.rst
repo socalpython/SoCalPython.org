@@ -20,11 +20,8 @@ Developing
 
 .. code-block:: shell
 
-    # compile styles
+    # compile styles - you'll need to run this every time you make a CSS change
     pysassc ./assets/static/style/style.scss > ./assets/static/style/style.css
-
-    # alternately, if you have libsass installed, you can watch for changes
-    sass --watch ./assets/static/style/style.scss:./assets/static/style/style.css
 
     # run the Lektor server
     pipenv run lektor server
