@@ -1,7 +1,7 @@
-SoCalPython.com
+SoCalPython.org
 ===============
 
-This is the source repo for `SoCalPython.com <https://socalpython.com>`_.
+This is the source repo for `SoCalPython.org <https://socalpython.org>`_.
 
 The site is built using `Lektor <https://www.getlektor.com/>`_ and `Sass <http://sass-lang.com/>`_, and below instructions will rely on `Pipenv <https://docs.pipenv.org/>`_ as well.
 
