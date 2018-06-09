@@ -1,2 +1,5 @@
 [project]
 name = SoCalPython.com
+locale = en_US
+url = https://socalpython.org
+url_style = external
