@@ -3,3 +3,5 @@ name = SoCalPython.com
 locale = en_US
 url = https://socalpython.org
 url_style = external
+
+description = "The official site of the Los Angeles Python programming language community."
