@@ -16,4 +16,4 @@ If a participant engages in harassing behavior, representatives of the community
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please act to intercede or ask for help from any member of the SoCal Python community, IRC chat admins, website admins, or organizers/representatives of any physical events put on under the auspices of SoCal Python.
 
-This Code of Conduct has been adapted from the Plone Foundation and is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported license
+This Code of Conduct has been adapted from the Plone Foundation and is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported license.
