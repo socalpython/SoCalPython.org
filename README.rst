@@ -35,7 +35,7 @@ Developing
 Infrastructure
 --------------
 
-This repository contains the site source. The site itself is deployed on Netlify from a different repository, generated from this source. The domain is registered by @nkantar through Hover, and SSL is provided by Let's Encrypt.
+The site is deployed on Netlify from the `master` branch of this repository, fully generated from this source. The domain is registered by @nkantar through Hover, and SSL is provided by Let's Encrypt.
 
 
 Code of Conduct
