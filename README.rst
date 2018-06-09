@@ -38,4 +38,4 @@ The site is deployed on Netlify from the `master` branch of this repository, ful
 Code of Conduct
 ---------------
 
-The SoCal Python community has a `Code of Conduct <https://github.com/socalpython/SoCalPython.org/blob/master/CODE_OF_CONDUCT.md>`_, which covers contributing to this codebase as well as participating in the community in any way. Doing so implies you agree to abide by its terms.
+The SoCal Python community has a `Code of Conduct <https://socalpython.org/code-of-conduct/>`_, which covers contributing to this codebase as well as participating in the community in any way. Doing so implies you agree to abide by its terms.
