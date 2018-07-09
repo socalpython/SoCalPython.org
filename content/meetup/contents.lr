@@ -1,0 +1,6 @@
+_model: redirect
+---
+target: https://www.meetup.com/socalpython/
+---
+_discoverable: no
+

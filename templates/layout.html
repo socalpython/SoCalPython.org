@@ -40,10 +40,10 @@
               ['/speaking'|url, 'Speaking'],
               ['/sponsorship'|url, 'Sponsorship'],
               ['/code-of-conduct'|url, 'Code of Conduct'],
-              ['https://www.meetup.com/socalpython/', 'Meetup'],
-              ['https://socalpython.slack.com', 'Slack'],
-              ['https://github.com/socalpython', 'GitHub'],
-              ['https://twitter.com/socalpython', 'Twitter'],
+              ['/meetup'|url, 'Meetup'],
+              ['/slack'|url, 'Slack'],
+              ['/github'|url, 'GitHub'],
+              ['/twitter'|url, 'Twitter'],
             ] %}
               <li {% if this.is_child_of(href) %}class="active"{% endif %}><a href="{{ href }}">{{ title }}</a></li>
             {% endfor %}

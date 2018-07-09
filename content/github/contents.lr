@@ -1,0 +1,6 @@
+_model: redirect
+---
+target: https://github.com/socalpython
+---
+_discoverable: no
+
