@@ -1,0 +1,5 @@
+[build]
+  publish = "build/"
+  command = "sassc assets/static/style/style.scss > assets/static/style/style.css && lektor build --output-path build"
+[context.production]
+  environment = { PYTHON_VERSION = "3.7" }
