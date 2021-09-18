@@ -1,5 +1,6 @@
 ---
 title: "Sponsorship"
+path: "sponsorship/"
 ---
 
 

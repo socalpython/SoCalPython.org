@@ -1,5 +1,4 @@
 ---
-title: "The official site of the Los Angeles Python programming language community."
 ---
 
 
