@@ -7,6 +7,7 @@ license = "Public Domain"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+corvid = "^1.1.0"
 
 [tool.poetry.dev-dependencies]
 
