@@ -1,5 +1,6 @@
 ---
 title: "Speaking"
+path: "speaking/"
 ---
 
 

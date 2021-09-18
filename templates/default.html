@@ -11,26 +11,25 @@
     {% endif %}
 
     <!-- basic meta -->
-    <title>SoCal Python{% if title %} | {{ title }}{% endif %}</title>
+    <title>SoCal Python | {% if title %}{{ title }}{% elif redirect %}Redirecting{% else %}The official site of the Los Angeles Python programming language community.{% endif %}</title>
     <meta name="description" content="The official site of the Los Angeles Python programming language community.">
 
     <!-- OG -->
-    <meta property="og:title" content="SoCal Python{% if title %} | {{ title }}{% endif %}">
+    <meta property="og:title" content="SoCal Python | {% if title %}{{ title }}{% elif redirect %}Redirecting{% else %}The official site of the Los Angeles Python programming language community.{% endif %}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="TODO"><!-- TODO -->
+    <meta property="og:url" content="https://socalpython.org/{{ path }}">
     <meta property="og:description" content="The official site of the Los Angeles Python programming language community.">
-    <meta property="og:image" content="/static/img/socalpython-highres.jpg"><!-- TODO -->
+    <meta property="og:image" content="https://socalpython.org/assets/img/socalpython-highres.jpg">
     <meta property="og:image:width" content="792">
     <meta property="og:image:height" content="612">
 
     <!-- assets -->
-    <link rel="shortcut icon" href="/static/img/snake64.png"><!-- TODO -->
-    <link rel="apple-touch-icon" href="/static/img/snake144.png"><!-- TODO -->
-    <link rel="stylesheet" type="text/css" href="/static/style/style.css"><!-- TODO -->
-
+    <link rel="shortcut icon" href="/assets/img/snake64.png">
+    <link rel="apple-touch-icon" href="/assets/img/snake144.png">
+    <link rel="stylesheet" type="text/css" href="/assets/style/style.css">
 
     <!-- Plausible -->
-    <script async defer data-domain="socalpython.org" src="https://plausible.io/js/plausible.js"></script>
+    <script async defer data-domain="socalpython.org" src="https://stats.socalpython.org/js/index.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -52,8 +51,11 @@
       </header>
       <section>
         {% if redirect %}
-          <p>Redirecting to: {{ redirect }}</p>
+          <p>Redirecting to: <a href="{{ redirect }}">{{ redirect }}</a></p>
         {% else %}
+          {% if title %}
+            <h1>{{ title }}</h1>
+          {% endif %}
           {{ content }}
         {% endif %}
       </section>
