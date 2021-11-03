@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "SoCalPython.org"
-version = "2021.09.18.00"
+version = "2021.11.02.00"
 description = "SoCal Python website"
 authors = ["Nik Kantar <nik@nkantar.com>"]
 license = "Public Domain"
