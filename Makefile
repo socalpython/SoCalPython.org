@@ -17,4 +17,4 @@ serve: ## serve site from output/
 	poetry run python -m http.server 8765 -d output
 
 netlify: ## publish on Netlify
-	python3 -m pip install poetry && poetry env use 3 && poetry install && make build
+	python3 -m pip install poetry && poetry env use 3 && poetry install && make build && cp _redirects output/.
