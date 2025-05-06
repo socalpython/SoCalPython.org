@@ -34,4 +34,4 @@ First off: Thank you for supporting the local Python community!
 - Priority for speakers who work for the sponsor who want to give presentations at the meetup, if the presenter has not been chosen before the sponsor approaches us.
 - Warmest, fuzziest feelings for contributing to the local Python community!
 
-To get started, please contact the organizers via [Meetup](http://meetup.com/socalpython)
+To get started, please contact the organizers via [Meetup](http://meetup.com/socalpython).
