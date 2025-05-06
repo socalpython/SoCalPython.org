@@ -1,4 +1,4 @@
 [build]
   publish = "output/"
-  command = "make netlify"
-  environment = { PYTHON_VERSION = "3.8" }
+  command = "bash scripts/netlify_deploy.sh"
+  environment = { PYTHON_VERSION = "3.13" }

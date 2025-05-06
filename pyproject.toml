@@ -1,17 +1,11 @@
-[tool.poetry]
+[project]
 name = "SoCalPython.org"
-version = "2022.08.26.00"
+version = "25.5.5"
 description = "SoCal Python website"
 authors = ["Nik Kantar <nik@nkantar.com>"]
 license = "Public Domain"
-
-[tool.poetry.dependencies]
-python = "^3.8"
-corvid = "^1.1.0"
-pysass = "^0.1.0"
-
-[tool.poetry.dev-dependencies]
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.13"
+dependencies = [
+    "corvid>=1.1.1",
+    "pysass>=0.1.0",
+]
