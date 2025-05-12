@@ -36,6 +36,7 @@ The SoCal Python community has a [Code of Conduct], which covers contributing to
 [SoCalPython.org]: https://socalpython.org/ "SoCalPython.org | The official site of the Los Angeles Python programming language community."
 [corvid]: https://github.com/di/corvid/ "GitHub - di/corvid: An opinionated simple static site generator"
 [just]: https://github.com/casey/just "casey/just: 🤖 Just a command runner"
+[uv]: https://github.com/astral-sh/uv "astral-sh/uv: An extremely fast Python package and project manager, written in Rust."
 [modd]: https://github.com/cortesi/modd "cortesi/modd: A flexible developer tool that runs processes and responds to filesystem changes"
 [devd]: https://github.com/cortesi/devd "cortesi/devd: A local webserver for developers"
 [http://localhost:8000]: http://localhost:8000
