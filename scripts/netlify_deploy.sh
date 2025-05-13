@@ -7,10 +7,10 @@ set -e
 mise use -g just
 
 # install uv
-pip install uv
+python -m pip install uv
 
 # build
-uv run just build
+python -m uv run just build
 
 # copy redirects
 cp _redirects output/
