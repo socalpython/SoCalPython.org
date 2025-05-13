@@ -13,6 +13,20 @@ body {
   text-align: left;
 }
 
+blockquote {
+  margin: 0;
+  padding: 4px 24px;
+  font-style: italic;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0,0,0,.15);
+  background-color: rgb(237, 245, 249);
+
+  span {
+    font-style: normal;
+  }
+
+}
+
 a {
   color: #0077aa;
   text-decoration: underline;

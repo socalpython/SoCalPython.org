@@ -1,11 +1,19 @@
 [project]
 name = "SoCalPython.org"
-version = "25.5.5"
+version = "25.5.13"
 description = "SoCal Python website"
 authors = ["Nik Kantar <nik@nkantar.com>"]
 license = "Public Domain"
 requires-python = ">=3.13"
 dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "cogapp>=3.4.1",
     "corvid>=1.1.1",
+    "httpx>=0.28.1",
     "pysass>=0.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "pdbpp>=0.11.6",
 ]

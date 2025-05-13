@@ -10,6 +10,11 @@ html:
 css:
     pysass input/assets/style/style.scss output/assets/style/style.css
 
+# generate in memoriam (requires uv)
+inmemoriam:
+    python scripts/get_in_memoriam_csv.py
+    cog -r input/in-memoriam-michael/index.md
+
 # build site in output/ (requires uv)
 build:
     just html && just css

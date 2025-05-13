@@ -9,6 +9,9 @@ mise use -g just
 # install uv
 python -m pip install uv
 
+# generate in memoriam
+python -m uv run just inmemoriam
+
 # build
 python -m uv run just build
 
