@@ -1,0 +1,19 @@
+# .github/workflows/trigger_netlify_deploy.yml
+
+name: Trigger Netlify deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  trigger_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Trigger deploy
+      env:
+        NETLIFY_BUILD_HOOK_ID: ${{ secrets.NETLIFY_BUILD_HOOK_ID }}
+      run: |
+        curl -X POST -d "{}" https://api.netlify.com/build_hooks/$NETLIFY_BUILD_HOOK_ID
