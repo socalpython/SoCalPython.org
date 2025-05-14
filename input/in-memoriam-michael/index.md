@@ -5,6 +5,8 @@ path: "in-memoriam-michael/"
 
 In early May of 2025, the long-standing SoCal Python organizer Michael Ryabushkin—known to many as goodwill—passed away.
 
+<img src="/assets/img/goodwill.jpg" style="width:50%;display:block;margin:auto;" />
+
 As possibly the person most responsible for years of thriving of the group and its surrounding community, he had an impact on many of us, both professionally and personally. In light of that, this page is a collection of _in memoriam_ messages submitted through [this form](https://docs.google.com/forms/d/e/1FAIpQLSeoRvyBp5SR4QVY-LK2WwW2qXahf6CfRUmkNhOKUS3NtdLAIQ/viewform?usp=header "In Memoriam: Michael Ryabushkin - Google Forms"). If you would like to share your memories of Michael, please do the same.
 
 <!-- [[[cog
