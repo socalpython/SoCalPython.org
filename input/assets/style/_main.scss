@@ -9,7 +9,7 @@ body {
 .wrapper {
   margin: 0 auto;
   padding: 15px;
-  max-width: 700px;
+  max-width: 770px;
   text-align: left;
 }
 
@@ -18,7 +18,7 @@ blockquote {
   padding: 4px 24px;
   font-style: italic;
   border-radius: 10px;
-  box-shadow: 0 0 6px rgba(0,0,0,.15);
+  box-shadow: 0 0 6px rgba(0, 0, 0, .15);
   background-color: rgb(237, 245, 249);
 
   span {
@@ -41,8 +41,7 @@ a {
 }
 
 a:link,
-a:visited {
-}
+a:visited {}
 
 a:hover,
 a:active {
@@ -53,10 +52,11 @@ a:active {
 
 // these only work if they're separate
 ::selection {
-    background: #e0e0e0;
+  background: #e0e0e0;
 }
+
 ::-moz-selection {
-    background: #e0e0e0;
+  background: #e0e0e0;
 }
 
 header {
@@ -66,6 +66,7 @@ header {
   h1 {
 
     a {
+
       &:link,
       &:visited,
       &:hover,

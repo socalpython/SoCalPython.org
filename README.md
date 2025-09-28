@@ -14,9 +14,9 @@ It's built using [corvid] and below instructions rely on [just], [uv], [modd], a
 
 ## Developing
 
-You can run `just --list` to see all available options. Anything requiring uv should be run “inside” it, e.g., `uv run just dev`. You can run all commands like so if you don’t want to have to actively think about it.
+You can run `just --list` to see all available options.
 
-1. Run `uv run just dev` to start the automa-build-and-serve process
+1. Run `just dev` to start the automa-build-and-serve process
 2. Go to [http://localhost:8000]
 3. Make changes
 4. Refresh to see changes

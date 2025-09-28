@@ -4,16 +4,16 @@ dev:
 
 # build HTML with corvid (requires uv)
 html:
-    corvid
+    uv run corvid
 
 # compile CSS from Sass (requires uv)
 css:
-    pysass input/assets/style/style.scss output/assets/style/style.css
+    uv run pysass input/assets/style/style.scss output/assets/style/style.css
 
 # generate in memoriam (requires uv)
 inmemoriam:
-    python scripts/get_in_memoriam_csv.py
-    cog -r input/in-memoriam-michael/index.md
+    uv run python scripts/get_in_memoriam_csv.py
+    uv run cog -r input/in-memoriam-michael/index.md
 
 # build site in output/ (requires uv)
 build:
