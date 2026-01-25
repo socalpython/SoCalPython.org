@@ -9,6 +9,7 @@ dependencies = [
     "beautifulsoup4>=4.13.4",
     "cogapp>=3.4.1",
     "corvid>=1.1.1",
+    "devd>=0.0.1.dev0",
     "httpx>=0.28.1",
     "pysass>=0.1.0",
 ]
