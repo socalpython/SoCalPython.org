@@ -4,6 +4,10 @@
 
 **SoCal Python** is a Los Angeles area Python enthusiast group.
 
-We used to meet on the fourth or last Tuesday of every month at various locations throughout the city, but are currently effectively on hiatus.
+Our next meeting will be at [O'Brien's Irish Pub](https://www.obriensla.com/) on Saturday, February 21st, at 2PM.
 
-Join the [Meetup group](https://www.meetup.com/socalpython/) to hear about future events.
+We will also be hosting a booth at the [Southern California Linux Expo](https://www.socallinuxexpo.org/scale/23x), at the [Pasadena Convention Center](https://www.visitpasadena.com/convention-center/). The event runs March 5-8 (note that our booth will be up Friday Afternoon onward). Use discount code `PYPY` for 50% off the [listed price](https://register.socallinuxexpo.org/reg23/).
+
+Join our [Meetup](https://www.meetup.com/socalpython/) or [Luma](https://luma.com/socalpython) to hear about future events.
+
+
