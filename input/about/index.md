@@ -10,4 +10,4 @@ All ages welcome. Socal Python enthusiasts range from UCLA/USC students to progr
 
 Sponsors are welcome.
 
-Recruiters are not allowed at meetups, nor do we seek any quid-pro-quo solicitation from anyone on the recruitment side of the business (sponsorship being the exception).
+No form of advertising of services, products, events, or employment recruitment is allowed on our website, other online spaces, or at our events, unless approved by the SoCal Python organizers beforehand. Recruiters are not allowed at meetups, nor do we seek any quid-pro-quo solicitation from anyone on the recruitment side of the business (sponsorship being the sole exception).
