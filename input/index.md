@@ -6,7 +6,7 @@
 ## News
 
 ### Next Meeting
-Our next meeting will be at [O'Brien's Irish Pub](https://www.obriensla.com/) on Saturday, March 28th, at 2PM.
+Our next meeting will be at [O'Brien's Irish Pub](https://www.obriensla.com/) on Saturday, March 28th, at 2 PM.
 
 Melinda Thielbar, PhD will be presenting a talk entitled **Practical AI: An Expert Opinion**:
 
