@@ -14,4 +14,4 @@ path: "speaking/"
 - Please prepare your slides such that you can use them even if wifi is unavailable/unreliable
 - Please bring, or make sure the meetup organizers have, the correct A/V hookup from your computer to the projector
 - Please keep in mind the [Code of Conduct](/conduct) and make sure the content of your presentation and slides is  appropriate for our audience! NSFW images, innuendo, and jabs at other languages/cultures are unprofessional and inappropriate for this venue
-- Please assign a trusted person to evaluate your talk from both technical and delivery standpoints.
+- Please assign a trusted person to evaluate your talk from both technical and delivery standpoints
