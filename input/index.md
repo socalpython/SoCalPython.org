@@ -5,9 +5,9 @@
 
 ## News
 
-### July Meeting
+### September Meeting
 
-Our next meeting will take place Saturday, August 22nd, at 2PM at [O'Brien's Pub](https://www.obriensla.com/) in Santa Monica.
+Our next meeting will take place Saturday, September 26nd, at 2PM at [O'Brien's Pub](https://www.obriensla.com/) in Santa Monica.
 
 #### Speaker
 
