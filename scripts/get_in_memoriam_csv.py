@@ -4,7 +4,6 @@
 from os import getenv
 from pathlib import Path
 
-from bs4 import BeautifulSoup
 import httpx
 
 
@@ -21,14 +20,16 @@ def get_csv():
     if SPREADSHEET_ID is None:
         return
 
-    response = httpx.get(SPREADSHEET_URL)
-    soup = BeautifulSoup(response.content, features="html.parser")
-    redirect_url = soup.find("a").get("href")
+    response = httpx.get(SPREADSHEET_URL, follow_redirects=True)
+    response.raise_for_status()
 
-    redirect_response = httpx.get(redirect_url)
+    # HTML back means the sheet is not public; do not overwrite good data with it
+    content_type = response.headers.get("content-type", "")
+    if "csv" not in content_type:
+        raise SystemExit(f"expected CSV, got {content_type!r}")
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_bytes(redirect_response.content)
+    OUTPUT_PATH.write_bytes(response.content)
 
 
 if __name__ == "__main__":
